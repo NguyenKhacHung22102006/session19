@@ -1,0 +1,17 @@
+let result;
+result = "javascript" + 5;
+console.log(`"javascript" + 5 =`, result); 
+result = "javascript" - 1;
+console.log(`"javascript" - 1 =`, result); 
+result = "3" + 2;
+console.log(`"3" + 2 =`, result); 
+result = "5" - 4;
+console.log(`"5" - 4 =`, result); 
+result = isNaN("123");
+console.log(`isNaN("123") =`, result); 
+result = isNaN("hello");
+console.log(`isNaN("hello") =`, result); 
+result = Number.isNaN("123");
+console.log(`Number.isNaN("123") =`, result); 
+result = Number.isNaN(NaN);
+console.log(`Number.isNaN(NaN) =`, result); 
